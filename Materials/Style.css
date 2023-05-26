@@ -1,0 +1,181 @@
+body {
+    height: 100%;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main_section {
+    flex-grow: 1;
+    margin-top: 15px;
+}
+
+.several_btn_2_childe {
+    display: flex;
+    align-items: center;
+    width: 252px;
+    padding: 18px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.temporary_check_box_class1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+    border-top: 1px solid #E8E8E8;
+
+}
+
+.temporary_check_box_class2 {
+    width: 252px;
+    padding: 18px 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.several_btn_2_search_childe {
+    padding: 12px 16px;
+    width: 252px;
+    height: 42px;
+    background: #F9F9F9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+
+.sapan_check_box_sapan {
+    display: flex;
+    gap: 10px;
+}
+
+.sapan_for_sub_categories {
+    display: flex;
+    gap: 10px;
+}
+
+.class_for_several_items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 252px;
+}
+
+.check_box_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.wrapper_for_sub_categories {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    gap: 18px;
+    box-sizing: border-box;
+}
+
+.wrapper_for_check_box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 252px;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 24px;
+}
+
+.category_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sapan_check_box_category {
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    gap: 18px;
+    padding: 18px 0px 0 0;
+}
+
+.wrapper_for_history_back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 252px;
+}
+
+.two_page {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BEBEBE;
+}
+
+.wrapper_for_filtering_panel_and_materials {
+    margin-top: 46px;
+}
+
+.wrapper_for_select_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_for_controlling {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_for_sub_cantroling {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 81px;
+    width: 100%;
+    max-width: 804px;
+}
+
+.sub_cantroling_container_for_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_sub_cantroling {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.select_sort {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.wrapper_for_reclam_blogs_new_class{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.reclam_blogs_new_class {
+    width: 252px;
+    height: 476px;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+.wrapper_for_filter_panel_and_reclam{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

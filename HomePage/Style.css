@@ -1,195 +1,3 @@
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.section_header {
-    background: #1446AF;
-    height: 185px;
-    width: 100%;
-}
-
-.wrapper_header_1 {
-    border-bottom: 1px solid #265AC6;
-}
-
-.container {
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 auto;
-}
-
-.navigation {
-    width: 100%;
-    height: 48px;
-}
-
-.navigation_2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 74px;
-}
-
-.use_navigation {
-    width: 100%;
-    height: 63px;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav_childs {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-
-}
-
-.nav_childs a {
-    color: #FFFFFF;
-    text-decoration: none;
-    transition: all ease .20s;
-}
-
-.child:hover {
-    color: #FFC600;
-    transition: all ease .20s;
-}
-
-.basket {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.search_wrapper {
-    display: flex;
-    align-items: center;
-}
-
-.search_input {
-    width: 339px;
-    height: 42px;
-    box-sizing: border-box;
-    padding: 12px 16px;
-    background: #FFFFFF;
-    border-radius: 5px 0px 0px 5px;
-    outline: none;
-    border: none;
-}
-
-.search_btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 11px 14px;
-    gap: 6px;
-    width: 93px;
-    height: 42px;
-    background: #FFC600;
-    border-radius: 0px 5px 5px 0px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-
-.search_btn span {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-}
-
-.contact {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.phone_number {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #FFFFFF;
-}
-
-.use_navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 838px;
-}
-
-.go_to_catalog {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 26px;
-    gap: 10px;
-    width: 203px;
-    height: 38px;
-    background: #FFC600;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-
-.go_to_catalog span {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    color: #000000;
-    flex: none;
-}
-
-.nav_link {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-decoration: none;
-    transition: all ease .20s;
-}
-
-.nav_link:hover {
-    color: #FFC600;
-    transition: all ease .20s;
-}
 
 /* Main */
 
@@ -207,7 +15,7 @@ body {
     height: 220px;
 }
 
-.wrapper_more_information {
+.wrapper_more_information_first {
     display: flex;
     justify-content: space-between;
 }
@@ -301,6 +109,7 @@ body {
 .main_categories {
     display: flex;
     flex-direction: column;
+    padding: 36px 0;
     gap: 24px;
 }
 
@@ -333,7 +142,6 @@ body {
 .wrapper_information_by_materials img {
     width: 160px;
     height: 128px;
-    border: 1px solid #F3F3F3;
     border-radius: 10px;
 }
 
@@ -343,7 +151,7 @@ body {
     align-items: center;
     padding: 20px 17px;
     width: 100%;
-    max-width: 209px;
+    max-width: 131px;
     margin: 0 auto;
 }
 
@@ -583,16 +391,386 @@ body {
 
 
 }
-.wrapper_info2{
+
+.wrapper_info2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 14px;
 }
 
-.wrapper_info3{
+.wrapper_info3 {
     display: flex;
     flex-direction: column;
     gap: 18px;
     margin-top: 21px;
 }
+
+.about_hellper_vards_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    padding: 24px;
+    gap: 10px;
+    width: 344px;
+    height: 120px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+}
+
+.title_and_text_inside_card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0F378A;
+}
+
+.text_card {
+    width: 214px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #595959;
+}
+
+.section_every_blogs {
+    margin-top: 80px;
+}
+
+.looke_at_every_blogs_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog img {
+    width: 343px;
+    height: 217px;
+}
+
+.looke_at_every_blogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_blogs {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #1446AF;
+}
+
+.all_blogs_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.button_looke_at_every_blogs {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0F378A;
+    text-decoration: none;
+
+}
+
+.wrapper_data_and_text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.wrapper_data_and_text span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.data {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+
+.every_blogs_btn_with_icon_arrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title_blogs {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #1446AF;
+}
+
+.looke_at_sapan_tv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sapan_tv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sapan_tv_blog1 {
+    width: 344px;
+    height: 217px;
+    border-radius: 10px;
+}
+
+.every_blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.section_every_blogs {
+    background: #FAFAFA;
+    padding: 60px 180px;
+}
+
+.our_other_services_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_our_other_services {
+    margin-top: 80px;
+    background: #1446AF;
+}
+
+.our_other_services_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.foto_blog_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_other_services_btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.foto_blog1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.foto_blog_childe2 {
+    width: 344px;
+    height: 260px;
+}
+
+.foto_blog_childe3 {
+    width: 344px;
+    height: 463px;
+}
+
+.foto_blog_childe4 {
+    width: 344px;
+    height: 260px;
+}
+
+.foto_blog_childe5 {
+    width: 344px;
+    height: 179px;
+}
+
+.section_our_other_services {
+    padding: 60px 180px;
+}
+
+.our_other_services {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.foto_blog_childe1 {
+    width: 344px;
+    height: 179px;
+}
+
+.foto_blog1_img_title1 {
+    position: relative;
+}
+
+.foto_blog1_title1 {
+    position: absolute;
+    top: 137px;
+    left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.foto_blog1_img_title2 {
+    position: relative;
+}
+
+.foto_blog1_title2 {
+    position: absolute;
+    top: 218px;
+    left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.foto_blog1_img_title3 {
+    position: relative;
+}
+
+.foto_blog1_title3 {
+    position: absolute;
+    top: 421px;
+    left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.foto_blog1_img_title4 {
+    position: relative;
+}
+
+.foto_blog1_title4 {
+    position: absolute;
+    top: 218px;
+    left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.foto_blog1_img_title5 {
+    position: relative;
+}
+
+.foto_blog1_title5 {
+    position: absolute;
+    top: 137px;
+    left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.wrapper_in_order_to_give_style_bg {
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    top: 1px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 10px;
+}
+
+.wrapper_in_order_to_give_style_bg2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 10px;
+}
+
+.reclam_blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog {
+    width: 345px;
+    height: 262px;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+
+.section_for_reclam {
+    margin-top: 80px;
+}
+
