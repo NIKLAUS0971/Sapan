@@ -1,0 +1,117 @@
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_faq_ {
+    flex-grow: 1;
+}
+
+.expand_items {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 50px;
+    width: 804px;
+    min-height: 80px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5C5C5C;
+    border-top: 1px solid #E8E8E8;
+}
+
+.title_every_time_ask_question {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #1446AF;
+}
+
+.wrapper_expand_ {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 29px;
+}
+
+.expand_items_2 {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.expand_items div {
+    display: flex;
+    cursor: pointer;
+    gap: 50px;
+    width: 804px;
+    min-height: 80px;
+    align-items: center;
+    color: #1446AF;
+}
+
+.expand_items_3_ {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.expand_item_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 747px;
+    padding: 0 89px 0 20px;
+}
+
+.expand_item_content span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #797979;
+}
+
+.listen_to_the_audio {
+    width: 100%;
+    cursor: pointer;
+    background: #F7F7F7;
+    border-radius: 10px;
+    padding: 0 16px;
+    width: 100%;
+    max-width: 156px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 44px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.some_blog_for_reclam_2 {
+    width: 251px;
+    height: 476px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    
+}
+.wrapper_FAQ_reklam{
+    display: flex;
+    gap: 24px;
+}
+.wrapper_reclam_wrapper_2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 87px;
+
+}
