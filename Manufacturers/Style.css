@@ -1,0 +1,41 @@
+.body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_section {
+    flex-grow: 1;
+}
+
+.wrapper_for_history_back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BEBEBE;
+}
+
+.manufactures {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #1446AF;
+}
+
+.wrapper_for_history_way_1_ {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 20px;
+}
